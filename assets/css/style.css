@@ -172,7 +172,9 @@ img { max-width: 100%; display: block; }
 .nav__logo-img {
   height: 36px;
   width: auto;
+  max-width: 160px;
   display: block;
+  object-fit: contain;
 }
 
 .nav__links {
@@ -1114,7 +1116,9 @@ img { max-width: 100%; display: block; }
 .footer__logo-img {
   height: 28px;
   width: auto;
+  max-width: 140px;
   display: block;
+  object-fit: contain;
 }
 
 .footer__tagline {
