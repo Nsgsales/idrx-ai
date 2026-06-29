@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">idrx.ai X icon</title>
+  <desc id="desc">Standalone transparent gradient X icon for favicon and footer.</desc>
+  <defs>
+    <linearGradient id="xGradient" x1="80" y1="96" x2="432" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5FF"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <path d="M72 96H178L256 205L334 96H440L309 256L440 416H334L256 307L178 416H72L203 256L72 96Z" fill="url(#xGradient)"/>
+</svg>
