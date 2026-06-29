@@ -166,25 +166,13 @@ img { max-width: 100%; display: block; }
 .nav__logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: var(--navy);
-  letter-spacing: -0.03em;
   flex-shrink: 0;
 }
 
-.nav__logo-mark {
-  width: 34px;
-  height: 34px;
-  background: var(--gradient);
-  border-radius: 9px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 0.85rem;
-  font-weight: 800;
+.nav__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav__links {
@@ -1115,27 +1103,18 @@ img { max-width: 100%; display: block; }
 
 .footer__brand {}
 .footer__logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: white;
-  letter-spacing: -0.03em;
   margin-bottom: 16px;
+  background: white;
+  border-radius: 10px;
+  padding: 6px 12px;
 }
 
-.footer__logo-mark {
-  width: 32px;
-  height: 32px;
-  background: var(--gradient);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 800;
+.footer__logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .footer__tagline {
