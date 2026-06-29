@@ -167,6 +167,19 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 1.65rem;
+  letter-spacing: -0.04em;
+  color: #0F172A;
+  line-height: 1;
+}
+
+.nav__logo-x {
+  background: linear-gradient(135deg, #3B82F6 0%, #7C3AED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .nav__logo-img {
